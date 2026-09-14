@@ -82,7 +82,8 @@ Bilingual static wireframes (EN/TR), viewable directly in browser:
 - [`07-wireframes/html/savings-app-en.html`](07-wireframes/html/savings-app-en.html)
 - [`07-wireframes/html/savings-app-tr.html`](07-wireframes/html/savings-app-tr.html)
 
-![HTML Wireframe Preview](assets/ui/html/html-wireframe-en-full.png)
+<img width="470" height="664" alt="image" src="https://github.com/user-attachments/assets/8763e8c1-feb1-41dd-af62-6d93c1babfa7" />
+
 
 ---
 
