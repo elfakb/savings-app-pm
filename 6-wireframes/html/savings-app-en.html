@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Biriktir - Wireframe (EN)</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #eee; margin: 0; padding: 20px; }
+  .screen {
+    width: 320px; min-height: 600px; margin: 0 auto 60px auto;
+    background: #fff; border: 2px solid #999; border-radius: 8px;
+    padding: 20px; box-sizing: border-box; position: relative;
+  }
+  .screen-label {
+    text-align: center; font-weight: bold; margin-bottom: 10px; color: #555;
+  }
+  h2 { font-size: 18px; color: #333; margin-bottom: 8px; }
+  p { font-size: 14px; color: #666; }
+  .btn {
+    display: block; width: 100%; padding: 12px; margin-top: 15px;
+    background: #ccc; border: 1px solid #999; border-radius: 4px;
+    text-align: center; font-size: 14px; color: #333; cursor: default;
+  }
+  .btn-primary { background: #999; color: #fff; }
+  .option-box {
+    border: 1px dashed #aaa; padding: 12px; margin-top: 10px;
+    background: #f5f5f5; font-size: 14px; color: #444;
+  }
+  .progress-bar-bg {
+    width: 100%; height: 20px; background: #ddd; border-radius: 10px;
+    margin: 10px 0; overflow: hidden;
+  }
+  .progress-bar-fill {
+    width: 25%; height: 100%; background: #999;
+  }
+  .activity-item {
+    font-size: 13px; color: #555; padding: 6px 0; border-bottom: 1px solid #eee;
+  }
+  .placeholder-input {
+    width: 100%; padding: 8px; border: 1px solid #ccc; margin-top: 8px;
+    box-sizing: border-box; font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<!-- SCREEN 1: Welcome -->
+<div class="screen">
+  <div class="screen-label">Screen 1 / Welcome</div>
+  <h2>Ready to Start Saving?</h2>
+  <p>Build financial security, one small step at a time.</p>
+  <div class="btn btn-primary">Get Started</div>
+</div>
+
+<!-- SCREEN 2: Income Type -->
+<div class="screen">
+  <div class="screen-label">Screen 2 / Income Type</div>
+  <h2>How does your income work?</h2>
+  <div class="option-box">Fixed (same every month)</div>
+  <div class="option-box">Variable (changes month to month)</div>
+  <div class="btn btn-primary">Continue</div>
+</div>
+
+<!-- SCREEN 3A: Fixed Income Method -->
+<div class="screen">
+  <div class="screen-label">Screen 3A / Fixed Income - Method</div>
+  <h2>How would you like to save?</h2>
+  <div class="option-box">Round-Up — Save the spare change from purchases</div>
+  <div class="option-box">Percentage — Save a set % of my income</div>
+  <div class="btn btn-primary">Select & Continue</div>
+</div>
+
+<!-- SCREEN 3B: Variable Income Method -->
+<div class="screen">
+  <div class="screen-label">Screen 3B / Variable Income - Method</div>
+  <h2>Since your income varies, this method fits best:</h2>
+  <p>Percentage-based saving scales with your income — save less when you earn less, more when you earn more.</p>
+  <div class="btn btn-primary">Choose Percentage Saving</div>
+</div>
+
+<!-- SCREEN 4: Goal Setting -->
+<div class="screen">
+  <div class="screen-label">Screen 4 / Goal Setting</div>
+  <h2>What are you saving for?</h2>
+  <div class="option-box">Emergency Fund</div>
+  <div class="option-box">Vacation</div>
+  <div class="option-box">New Device</div>
+  <div class="option-box">Open Savings</div>
+  <input class="placeholder-input" type="text" placeholder="Target Amount (optional)">
+  <div class="btn btn-primary">Continue</div>
+</div>
+
+<!-- SCREEN 5: Confirmation -->
+<div class="screen">
+  <div class="screen-label">Screen 5 / Confirmation</div>
+  <h2>Confirm Your Setup</h2>
+  <div class="option-box">Method: Percentage (10%)<br>Goal: Emergency Fund</div>
+  <div class="btn btn-primary">Confirm & Start</div>
+</div>
+
+<!-- SCREEN 6: Dashboard -->
+<div class="screen">
+  <div class="screen-label">Screen 6 / Dashboard</div>
+  <h2>You're covered for 12 days of expenses 💪</h2>
+  <p>Emergency Fund: $1,250 / $5,000 (25%)</p>
+  <div class="progress-bar-bg"><div class="progress-bar-fill"></div></div>
+  <p><strong>Recent Activity</strong></p>
+  <div class="activity-item">+$5 Round-Up — Grocery purchase</div>
+  <div class="activity-item">+$25 Percentage Cut — Paycheck</div>
+  <div class="activity-item">+$2 Round-Up — Coffee shop</div>
+  <div class="btn">Update Goal</div>
+</div>
+
+<!-- SCREEN 7: Low Income Alert -->
+<div class="screen">
+  <div class="screen-label">Screen 7 / Low Income Alert</div>
+  <h2>Your income looks a bit low this month</h2>
+  <p>You can pause automatic saving this month if needed — your progress stays safe.</p>
+  <div class="btn btn-primary">Panic Button — Pause This Month</div>
+  <div class="btn">Keep Going</div>
+</div>
+
+<!-- SCREEN 8: Panic Button Confirmation -->
+<div class="screen">
+  <div class="screen-label">Screen 8 / Panic Button Confirmation</div>
+  <h2>Paused for This Month</h2>
+  <p>Don't worry, your progress isn't lost. You'll pick up right where you left off next month.</p>
+  <div class="btn btn-primary">Back to Dashboard</div>
+</div>
+
+</body>
+</html>

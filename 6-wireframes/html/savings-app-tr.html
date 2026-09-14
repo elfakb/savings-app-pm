@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Biriktir - Wireframe (TR)</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #eee; margin: 0; padding: 20px; }
+  .screen {
+    width: 320px; min-height: 600px; margin: 0 auto 60px auto;
+    background: #fff; border: 2px solid #999; border-radius: 8px;
+    padding: 20px; box-sizing: border-box; position: relative;
+  }
+  .screen-label {
+    text-align: center; font-weight: bold; margin-bottom: 10px; color: #555;
+  }
+  h2 { font-size: 18px; color: #333; margin-bottom: 8px; }
+  p { font-size: 14px; color: #666; }
+  .btn {
+    display: block; width: 100%; padding: 12px; margin-top: 15px;
+    background: #ccc; border: 1px solid #999; border-radius: 4px;
+    text-align: center; font-size: 14px; color: #333; cursor: default;
+  }
+  .btn-primary { background: #999; color: #fff; }
+  .option-box {
+    border: 1px dashed #aaa; padding: 12px; margin-top: 10px;
+    background: #f5f5f5; font-size: 14px; color: #444;
+  }
+  .progress-bar-bg {
+    width: 100%; height: 20px; background: #ddd; border-radius: 10px;
+    margin: 10px 0; overflow: hidden;
+  }
+  .progress-bar-fill {
+    width: 25%; height: 100%; background: #999;
+  }
+  .activity-item {
+    font-size: 13px; color: #555; padding: 6px 0; border-bottom: 1px solid #eee;
+  }
+  .placeholder-input {
+    width: 100%; padding: 8px; border: 1px solid #ccc; margin-top: 8px;
+    box-sizing: border-box; font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<!-- EKRAN 1: Karşılama -->
+<div class="screen">
+  <div class="screen-label">Ekran 1 / Karşılama</div>
+  <h2>Biriktirmeye Hazır mısın?</h2>
+  <p>Küçük adımlarla büyük bir güvence oluştur.</p>
+  <div class="btn btn-primary">Başla</div>
+</div>
+
+<!-- EKRAN 2: Gelir Tipi -->
+<div class="screen">
+  <div class="screen-label">Ekran 2 / Gelir Tipi Seçimi</div>
+  <h2>Gelirin nasıl?</h2>
+  <div class="option-box">Sabit (her ay aynı)</div>
+  <div class="option-box">Değişken (ay ay değişiyor)</div>
+  <div class="btn btn-primary">Devam Et</div>
+</div>
+
+<!-- EKRAN 3A: Sabit Gelir Yöntem -->
+<div class="screen">
+  <div class="screen-label">Ekran 3A / Sabit Gelir - Yöntem</div>
+  <h2>Nasıl biriktirmek istersin?</h2>
+  <div class="option-box">Round-Up — Harcamalarımın üstünü biriktir</div>
+  <div class="option-box">Yüzdelik — Gelirimin belirli bir yüzdesini biriktir</div>
+  <div class="btn btn-primary">Seç ve Devam Et</div>
+</div>
+
+<!-- EKRAN 3B: Değişken Gelir Yöntem -->
+<div class="screen">
+  <div class="screen-label">Ekran 3B / Değişken Gelir - Yöntem</div>
+  <h2>Gelirin değişken olduğu için sana en uygun yöntem:</h2>
+  <p>Yüzdelik kesinti, her gelire orantılı çalışır — az kazandığında az, çok kazandığında çok biriktirirsin.</p>
+  <div class="btn btn-primary">Yüzdelik Kesintiyi Seç</div>
+</div>
+
+<!-- EKRAN 4: Hedef Belirleme -->
+<div class="screen">
+  <div class="screen-label">Ekran 4 / Hedef Belirleme</div>
+  <h2>Ne için biriktiriyorsun?</h2>
+  <div class="option-box">Acil Durum Fonu</div>
+  <div class="option-box">Tatil</div>
+  <div class="option-box">Yeni Cihaz</div>
+  <div class="option-box">Serbest Birikim</div>
+  <input class="placeholder-input" type="text" placeholder="Hedef Tutar (opsiyonel)">
+  <div class="btn btn-primary">Devam Et</div>
+</div>
+
+<!-- EKRAN 5: Onay -->
+<div class="screen">
+  <div class="screen-label">Ekran 5 / Onay</div>
+  <h2>Seçimlerini Onayla</h2>
+  <div class="option-box">Yöntem: Yüzdelik (%10)<br>Hedef: Acil Durum Fonu</div>
+  <div class="btn btn-primary">Onayla ve Başlat</div>
+</div>
+
+<!-- EKRAN 6: Dashboard -->
+<div class="screen">
+  <div class="screen-label">Ekran 6 / Dashboard</div>
+  <h2>Bugün 12 günlük harcamana yetecek kadar güvendesin 💪</h2>
+  <p>Acil Durum Fonu: 1.250₺ / 5.000₺ (%25)</p>
+  <div class="progress-bar-bg"><div class="progress-bar-fill"></div></div>
+  <p><strong>Son Hareketler</strong></p>
+  <div class="activity-item">+15₺ Round-Up — Market alışverişi</div>
+  <div class="activity-item">+80₺ Yüzdelik Kesinti — Maaş</div>
+  <div class="activity-item">+5₺ Round-Up — Kafe</div>
+  <div class="btn">Hedefi Güncelle</div>
+</div>
+
+<!-- EKRAN 7: Düşük Gelir Bildirimi -->
+<div class="screen">
+  <div class="screen-label">Ekran 7 / Düşük Gelir Bildirimi</div>
+  <h2>Bu ay gelirin biraz düşük görünüyor</h2>
+  <p>İstersen bu ayki otomatik kesintiyi duraklatabilirsin, birikimin güvende kalır.</p>
+  <div class="btn btn-primary">Panik Butonu — Bu Ay Duraklat</div>
+  <div class="btn">Devam Et</div>
+</div>
+
+<!-- EKRAN 8: Panik Butonu Onayı -->
+<div class="screen">
+  <div class="screen-label">Ekran 8 / Panik Butonu Onayı</div>
+  <h2>Bu Ay Duraklatıldı</h2>
+  <p>Endişelenme, birikimin silinmedi. Gelecek ay kaldığın yerden devam edeceksin.</p>
+  <div class="btn btn-primary">Dashboard'a Dön</div>
+</div>
+
+</body>
+</html>
