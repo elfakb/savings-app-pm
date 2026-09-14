@@ -2,7 +2,8 @@
 
 🇹🇷 [Bu sayfanın Türkçe versiyonu için tıklayın](README.tr.md)
 
-![Overview](assets/ui/figma/figma-overview-all-screens.png)
+<img width="638" height="704" alt="image" src="https://github.com/user-attachments/assets/d9b4f85d-762d-455c-b9ac-547c2bd843ca" />
+
 
 ## About This Project
 
