@@ -2,7 +2,9 @@
 
 🇹🇷 [Bu sayfanın Türkçe versiyonu için tıklayın](README.tr.md)
 
-<img width="638" height="704" alt="Project Overview" src="assets/ui/figma/figma-overview-all-screens.png" />
+![Overview](assets/ui/figma/figma-overview-all-screens.png)
+
+
 
 ## About This Project
 
@@ -175,7 +177,7 @@ Bilingual static wireframes (EN/TR), viewable directly in browser:
 - [`07-wireframes/html/savings-app-en.html`](07-wireframes/html/savings-app-en.html)
 - [`07-wireframes/html/savings-app-tr.html`](07-wireframes/html/savings-app-tr.html)
 
-<img width="470" height="664" alt="HTML Wireframe Preview" src="assets/ui/html/html-wireframe-en-full.png" />
+<img width="322" height="605" alt="image" src="https://github.com/user-attachments/assets/9d237221-7e21-4f13-a381-bccf4bb02183" />
 
 ---
 
